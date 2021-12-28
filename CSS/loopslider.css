@@ -1,0 +1,80 @@
+/**
+ * @author: Pavel Khoroshkov aka pgood
+ */
+.loopslider{
+	position:relative;
+	overflow:hidden;
+}
+.loopslider-body{
+	position:relative;
+}
+.loopslider-item-wraper{
+	display:inline-block;
+}
+.loopslider-fullscreen .loopslider-body,
+.loopslider-fullscreen .loopslider-item-wraper,
+.loopslider-fullscreen .loopslider-item-wraper > *{
+	height: 100%;
+}
+.loopslider-pagination{
+	display:block;
+	text-align:center;
+	margin: 10px 0;
+}
+.loopslider-page-nav-item{
+	display:inline-block;
+	width:10px;
+	height:10px;
+	border-radius:5px;
+	background:#999;
+	margin:0 5px;
+	cursor:pointer;
+}
+.loopslider-page-nav-item.loopslider-active,
+.loopslider-page-nav-item:hover{
+	background:#777;
+}
+.loopslider-nav-button{
+	cursor: pointer;
+    height: 81px;
+    width: 81px;
+	position: absolute;
+	fill: transparent; /* default nav buttons color */
+}
+.loopslider:hover .loopslider-nav-button{
+	fill: #999;
+}
+.loopslider:hover .loopslider-nav-button:hover{
+    fill: #fff;
+}
+.loopslider-nav-button > svg{
+	width: 100%;
+	height: 100%;
+	background: inherit;
+	fill: inherit;
+	pointer-events: none;
+	transform: translateX(0px);
+}
+.loopslider-prev-button{
+	left:0;
+}
+.loopslider-next-button{
+	right:0;
+}
+.loopslider-parallax-container{
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+}
+
+@media (pointer:coarse){
+	.loopslider .loopslider-nav-button{
+		fill: #999;
+	}
+}
+
+@media all and (max-width: 400px){
+	.loopslider-nav-button{
+		height: 64px;
+		width: 64px;
+	}
+}

@@ -1,0 +1,77 @@
+/**
+ * Created on : 08.11.2015, 16:16:38
+ * @author    : Pavel Khoroshkov aka pgood
+ */
+#thumbnail {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    border-radius: 10px;
+    justify-content: center;
+  }
+
+.page-header{
+	margin: 40px 0 20px;
+}
+.header-slider{
+	margin: 0 0 40px;
+}
+.header-slider figure{
+	position: relative;
+	text-align: center;
+	width: 100%;
+	overflow: hidden;
+	height: 200px;
+}
+.header-slider figure img{
+	position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+	height: 100%;
+}
+.header-slider > figure{
+	visibility: hidden;
+}
+.header-slider > figure:first-child{
+	visibility: visible;
+}
+.header-slider figure > figcaption{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0,0,0,.5);
+	padding: 20px;
+	color: #fff;
+}
+pre.prettyprint.prettyprinted{
+	padding: 10px 20px;
+	border: 1px solid #ccc;
+	margin:0 0 40px;
+}
+.slider-buttons{
+	margin: 0 0 40px;
+}
+.footer{
+	padding-top: 20px;
+	padding-bottom: 40px;
+	margin-top:40px;
+	color: #777;
+	border-top: 1px solid #e5e5e5;
+}
+.material-icons{
+	vertical-align: text-bottom;
+}
+@media all and (max-width: 760px){
+    .header-slider figure{
+		height: 360px;
+		width: auto;
+	}
+}
+@media all and (max-width: 480px){
+    .header-slider figure{
+		height: 240px;
+		width: auto;
+	}
+}
