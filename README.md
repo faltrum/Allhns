@@ -1,6 +1,3 @@
 # Allhns
-Based in the Handshake Ecosystem Mindmap, to understand the whole picture in the descentrilized Certificate Authorities and Root Zone
-Created and updated by myself (Faltrum) and helped by AndiR16 and others people.
-The principal Allhns's objetive is make easy the approach to understand the Handshake ecosystem and all the actors are interplaying at the same time.
-If you are enjoying with that mindmap you can donate some HNS, this is the address: hs1q3vh7dq302skr8u94yar245rmamaasx8umnzc0k
+Based in the Handshake Ecosystem, the Mindmap assists understanding the whole picture of the decentralized Certificate Authorities and Root Zone. Created and updated by myself (Faltrum) and helped by AndiR16 and other people, specially thanks to Johan and tiMaxal for english translation. The principal objective of AllHNS is easing the approach to understanding the Handshake ecosystem and all the actors that are interplaying at the same time. If you are enjoying that mindmap you can donate some HNS; this is the address: hs1q3vh7dq302skr8u94yar245rmamaasx8umnzc0k
 Thank you very much and Happy Handshaking
